@@ -13,6 +13,10 @@ nav{
     font-size: 25px;
     color: tomato;
 }
+
+.logo a{
+    text-decoration: none;
+}
 .fas{
     cursor: pointer;
 }

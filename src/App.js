@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Demo from "./components/pages/Demo";
 import Home from "./components/pages/Home";
 import KeyFeature from "./components/pages/KeyFeature";
+import Contact from "./components/pages/Contact";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/demo" component={Demo}/>
+          <Route path="/contact" component={Contact}/>
           <Route path="/keyFeature" component={KeyFeature}/>
         </Switch>
       </Router>

@@ -17,7 +17,10 @@ const Navbar = () => {
     return (
         <nav>
             <div className="logo">
-                VPN <font>Lab</font>
+                <NavLink to="/">
+               <font> Maisons du Monde</font>
+                </NavLink>
+               
             </div>
             <div className="menu-icon" onClick={handleClick}>
                     <i className= {clicked ? "fas fa-times" : "fas fa-bars"}></i>

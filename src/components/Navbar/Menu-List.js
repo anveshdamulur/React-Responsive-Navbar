@@ -8,6 +8,10 @@ export const menuList = [
         url : "/demo"
     },
     {
+        title : "Contact",
+        url : "/contact"
+    },
+    {
         title : "KeyFeature",
         url : "/keyFeature"
     }
